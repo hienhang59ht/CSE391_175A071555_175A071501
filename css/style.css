@@ -271,3 +271,94 @@ ul.news-thumb-list li .sourcename {
     padding-top: 0;
     font-size: 11px;
 }
+
+.style1 {
+    margin-bottom: 15px;
+}
+
+.style1 h2 {
+    line-height: 35px;
+    border-bottom: 4px solid #0e517c;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.style1 h2 a {
+    background-color: #0e517c;
+    display: block;
+    width: 31%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.style1 .big {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    display: block;
+}
+
+.style1 .big img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.style1 .big p {
+    font-size: 20px;
+    color: #3c3939;
+    line-height: 30px;
+}
+
+.style1 ul {
+    list-style: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.style1 ul li {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.style1 ul a {
+    display: block;
+    color: #3c3939;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.style1 ul a img {
+    float: left;
+    width: 40%;
+}
+
+.style1 ul a div {
+    margin-left: 42%;
+}
+
+.style1 ul a span {
+    color: #ccc;
+}
+
+.clear-padding {
+    padding: 0px;
+}
+
+.clear-padding ul {
+    padding: 0px;
+}
+
+.footerformat {
+    background-color: #003d68;
+}
+
+.footerformat strong {
+    color: white;
+}
+
+.clear-margin {
+    margin: 0px;
+}
