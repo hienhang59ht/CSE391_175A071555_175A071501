@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Trường Cao Đẳng Dược Hà Nội </title>
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Search form -->
+    <div class="input-group md-form form-sm form-2 pl-0 ">
+        <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Nhập từ khóa tìm kiếm..." aria-label="Search">
+        <div class="input-group-append">
+            <span class="input-group-text amber lighten-3" id="basic-text1"><i class="fas fa-search"
+                  aria-hidden="true"></i></span>
+        </div>
+    </div>
+    <div class="menu">
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand no-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tin giáo dục</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tuyển sinh
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Tuyển sinh 2019</a>
+                            <a class="dropdown-item" href="#">Cao đẳng dược</a>
+                            <a class="dropdown-item" href="#">Cao đẳng điều dưỡng</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ĐK xét tuyển trực tuyến</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ĐK VB2</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tổng hợp ảnh
+                          </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Ảnh trường lớp - phòng thực hành</a>
+                            <a class="dropdown-item" href="#">Ảnh các hoạt động</a>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tổng hợp video</a>
+                        </li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Banner -->
+    <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Banner/01.png" class="d-block w-100 " alt="banner">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Banner/02.png" class="d-block w-100 " alt="banner">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Banner/03.png" class="d-block w-100 " alt="banner">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main body-->
+    <div class="container cach chieucao">
+        <div class="row">
+            <div class="col-3">
+                <h2 class="title-right">Tin tức mới</h2>
+                <div class="border-box-right" style="padding: 5px 10px 0px 10px;">
+                    <ul class="news-thumb">
+                        <li>
+                            <a href="http://caodangduoc.edu.vn/tin-giao-duc/trinh-duoc-vien-la-gi.html" title="Trình dược viên là gì?">
+                                <img src="http://caodangduoc.edu.vn/public/img/500x0/006c62539fd9e971fb67d56a78c3713c.png" alt="Trình dược viên là gì?" class="image loaded">
+                                <div class="caption">
+                                    <span class="title">Trình dược viên là gì?</span>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://caodangduoc.edu.vn/tin-giao-duc/lich-thi-chinh-thuc-ky-thi-thpt-quoc-gia-nam-2019.html" title="Lịch thi chính thức kỳ thi THPT Quốc Gia năm 2019">
+                                <img src="http://caodangduoc.edu.vn/public/img/500x0/7121de985014643fe928c0ae15d55ec1.jpg" alt="Lịch thi chính thức kỳ thi THPT Quốc Gia năm 2019" class="image loaded">
+                                <div class="caption">
+                                    <span class="title">Lịch thi chính thức kỳ thi THPT Quốc Gia năm 2019</span>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://caodangduoc.edu.vn/tin-giao-duc/nganh-dieu-duong-va-y-nghia-voi-xa-hoi.html" title="Ngành Điều dưỡng và ý nghĩa với xã hội">
+                                <img src="http://caodangduoc.edu.vn/public/img/500x0/5ab0bf707d62c8faa5ae4321cd5689c9.jpg" alt="Ngành Điều dưỡng và ý nghĩa với xã hội" class="image loaded">
+                                <div class="caption">
+                                    <span class="title">Ngành Điều dưỡng và ý nghĩa với xã hội</span>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://caodangduoc.edu.vn/tin-giao-duc/tam-quan-trong-cua-nganh-duoc-voi-con-nguoi.html" title="Tầm quan trọng của ngành Dược với con người">
+                                <img src="http://caodangduoc.edu.vn/public/img/500x0/9c8d8045b83f9defb6cae0f3ae233847.jpg" alt="Tầm quan trọng của ngành Dược với con người" class="image loaded">
+                                <div class="caption">
+                                    <span class="title">Tầm quan trọng của ngành Dược với con người</span>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://caodangduoc.edu.vn/tin-giao-duc/xu-huong-hoc-chuyen-doi-nganh-dieu-duong-hien-nay.html" title="Xu hướng học chuyển đổi ngành Điều dưỡng hiện nay">
+                                <img src="http://caodangduoc.edu.vn/public/img/500x0/dc875922a4ea980841a377be9c15e129.jpg" alt="Xu hướng học chuyển đổi ngành Điều dưỡng hiện nay" class="image loaded">
+                                <div class="caption">
+                                    <span class="title">Xu hướng học chuyển đổi ngành Điều dưỡng hiện nay</span>
+
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bd-example">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Banner2/lichthithpt.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <mark>Lịch thi THPT 2019.</mark>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/Banner2/IMG_0032.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <mark>Giờ thực hành.</mark>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/Banner2/PTSmau1(3).png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <mark>Hướng dẫn làm phiếu dự thi.</mark>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <iframe style="width: 100%; height: 100%;" src="https://www.youtube.com/embed/0OjzME87hqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+        </div>
+    </div>
+    <!-- Body 2-->
+    <div class="container cach chieucao">
+        <div class="row">
+            <div class="col-9">
+                <div class="style1">
+                    <h2><a href="http://caodangduoc.edu.vn/tuyen-sinh-2019.html" title="Tin tuyển sinh 2019">Tin tuyển sinh 2019</a></h2>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <a href="http://caodangduoc.edu.vn/tin-giao-duc/nghe-dieu-duong-nghe-cua-tinh-thuong-va-su-tan-tam.html" title="Nghề Điều Dưỡng – Nghề của tình thương và sự tận tâm" class="big">
+                                <img src="http://6.img.izshop.vn/gt09/images/news/2019/05/origin/e6ecf8450fa3cbaa449c8e5c6913463a.JPG">
+                                <p>Nghề Điều Dưỡng – Nghề của tình thương và sự tận tâm</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 clear-padding">
+                            <ul>
+                                <li>
+                                    <a href="http://caodangduoc.edu.vn/tin-giao-duc/nguyen-nhan-sinh-vien-moi-ra-truong-that-nghiep-sau-khi-hoc-duoc.html">
+                                        <img src="http://caodangduoc.edu.vn/public/img/500x0/8434060e13432c477cd5ae0ade5b31e0.jpg" alt="">
+                                        <div>
+                                            <p>Nguyên nhân sinh viên mới ra trường thất nghiệp sau khi học Dược</p>
+                                            <span>(08/05/2019)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://caodangduoc.edu.vn/tin-giao-duc/tu-van-tuyen-sinh-cac-truong-thpt.html">
+                                        <img src="http://caodangduoc.edu.vn/public/img/500x0/902e532537846de679e73ac2621cd819.jpg" alt="">
+                                        <div>
+                                            <p>Trường cao đẳng dược Hà Nội hướng nghiệp cho các thí sinh Tỉnh Hưng Yên</p>
+                                            <span>(07/05/2019)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://caodangduoc.edu.vn/tuyen-sinh-2019/xet-tuyen-vao-cao-dang-dieu-duong-ha-noi-2019.html">
+                                        <img src="http://caodangduoc.edu.vn/public/img/500x0/e10c84e4e0bc94284ae3dae065d7956a.jpg" alt="">
+                                        <div>
+                                            <p>Xét tuyển vào cao đẳng điều dưỡng Hà Nội 2019</p>
+                                            <span>(01/04/2019)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://caodangduoc.edu.vn/tuyen-sinh-2019/hoc-phi-truong-cao-dang-duoc-ha-noi-la-bao-nhieu.html">
+                                        <img src="http://caodangduoc.edu.vn/public/img/500x0/e861517b7307a934f39d20e9c36b2845.jpg" alt="">
+                                        <div>
+                                            <p>Học phí trường Cao Đẳng Dược Hà Nội là bao nhiêu?</p>
+                                            <span>(20/03/2019)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://caodangduoc.edu.vn/tin-giao-duc/tren-8-diem-thi-sinh-moi-duoc-xet-tuyen-dai-hoc-nganh-y-duoc.html">
+                                        <img src="http://caodangduoc.edu.vn/public/img/500x0/f92f65f0cef2ce1c8383747966a88c78.jpg" alt="">
+                                        <div>
+                                            <p>Trên 8 điểm mới được xét tuyển Đại Học ngành Y - Dược?</p>
+                                            <span>(14/03/2019)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="style1">
+                    <h2><a href="http://caodangduoc.edu.vn/tin-giao-duc.html" title="Giáo dục">Giáo dục</a></h2>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <a href="http://caodangduoc.edu.vn/tin-giao-duc/nganh-y-duoc-chinh-thuc-khong-nhan-nguoi-tot-nghiep-he-trung-cap.html" title="Ngành Y - Dược: Chính thức không nhận người tốt nghiệp hệ trung cấp" class="big">
+                                <img src="http://6.img.izshop.vn/gt09/images/news/2018/05/origin/5e72b6c24ddd9c6fc9a7af88b1895534.jpg">
+                                <p>Ngành Y - Dược: Chính thức không nhận người tốt nghiệp hệ trung cấp</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 clear-padding">
+                            <ul>
+                                <li>
+                                    <a href="http://caodangduoc.edu.vn/tin-giao-duc/sinh-vien-tham-gia-huong-ung-phong-trao-chong-rac-thai-nhua.html">
+                                        <img src="http://caodangduoc.edu.vn/public/img/500x0/2005c7cc149a1b510dacd06c3dc71c24.jpg" alt="">
+                                        <div>
+                                            <p>Sinh viên tham gia hưởng ứng phong trào "Chống rác thải nhựa"</p>
+                                            <span>(03/06/2019)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://caodangduoc.edu.vn/tin-giao-duc/nghe-dieu-duong-nghe-cua-tinh-thuong-va-su-tan-tam.html">
+                                        <img src="http://caodangduoc.edu.vn/public/img/500x0/18ff7e40af5b2e8235c76d886910b6df.jpg" alt="">
+                                        <div>
+                                            <p>Nghề Điều Dưỡng – Nghề của tình thương và sự tận tâm</p>
+                                            <span>(31/05/2019)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://caodangduoc.edu.vn/tin-giao-duc/trinh-duoc-vien-la-gi.html">
+                                        <img src="http://caodangduoc.edu.vn/public/img/500x0/006c62539fd9e971fb67d56a78c3713c.png" alt="">
+                                        <div>
+                                            <p>Trình dược viên là gì?</p>
+                                            <span>(29/05/2019)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://caodangduoc.edu.vn/tin-giao-duc/lich-thi-chinh-thuc-ky-thi-thpt-quoc-gia-nam-2019.html">
+                                        <img src="http://caodangduoc.edu.vn/public/img/500x0/7121de985014643fe928c0ae15d55ec1.jpg" alt="">
+                                        <div>
+                                            <p>Lịch thi chính thức kỳ thi THPT Quốc Gia năm 2019</p>
+                                            <span>(28/05/2019)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://caodangduoc.edu.vn/tin-giao-duc/nganh-dieu-duong-va-y-nghia-voi-xa-hoi.html">
+                                        <img src="http://caodangduoc.edu.vn/public/img/500x0/5ab0bf707d62c8faa5ae4321cd5689c9.jpg" alt="">
+                                        <div>
+                                            <p>Ngành Điều dưỡng và ý nghĩa với xã hội</p>
+                                            <span>(21/05/2019)</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="ADV_03">
+                    <div class="adv-index-box adv-top-banner">
+                        <a target="" href="http://caodangduoc.edu.vn/danh-muc-tin-tuc/cao-dang-y-duoc-ha-noi-thong-bao-tuyen-sinh-2018.html"><img style="width: 100%" src="http://6.img.izshop.vn/gt09/adverts/2016/04/1461203418.gif"></a>
+                    </div>
+                </div>
+                <div class="ADV_03">
+                    <div class="adv-index-box adv-top-banner">
+                        <a target="" href="http://caodangduoc.edu.vn/tin-giao-duc/tong-hop-de-thi-mau-cac-mon-thpt-quoc-gia-nam-2019.html"><img style="width: 100%" src="http://6.img.izshop.vn/gt09/adverts/2019/02/tonghop.jpg"></a>
+                    </div>
+                </div>
+                <div class="ADV_03">
+                    <div class="adv-index-box adv-top-banner">
+                        <a target="" href="http://caodangduoc.edu.vn/vanbang2/"><img style="width: 100%" src="http://6.img.izshop.vn/gt09/adverts/2016/04/1461203401.gif"></a>
+                    </div>
+                </div>
+                <div class="ADV_03">
+                    <div class="adv-index-box adv-top-banner">
+                        <a target="" href="http://caodangduoc.edu.vn/xettuyenchinhquy2019"><img style="width: 100%" src="http://6.img.izshop.vn/gt09/adverts/2016/04/1461204561.gif"></a>
+                    </div>
+                </div>
+
+                <div class="title-right">Tin tức nổi bật</div>
+                <div class="border-box-right">
+                    <ul class="news-right">
+                        <li><a href="http://caodangduoc.edu.vn/tuyen-sinh/nguoi-hoc-chung-chi-tiem-truyen-co-nhiem-vu-lam-gi.html" title="Người học chứng chỉ tiêm truyền có nhiệm vụ làm gì?">Người học chứng chỉ tiêm truyền có nhiệm vụ làm gì?</a></li>
+                        <li><a href="http://caodangduoc.edu.vn/tin-giao-duc/lich-thi-chinh-thuc-ky-thi-thpt-quoc-gia-nam-2019.html" title="Lịch thi chính thức kỳ thi THPT Quốc Gia năm 2019">Lịch thi chính thức kỳ thi THPT Quốc Gia năm 2019<span class="new_icon_1"></span></a></li>
+                        <li><a href="http://caodangduoc.edu.vn/tin-giao-duc/nguyen-nhan-sinh-vien-moi-ra-truong-that-nghiep-sau-khi-hoc-duoc.html" title="Nguyên nhân sinh viên mới ra trường thất nghiệp sau khi học Dược">Nguyên nhân sinh viên mới ra trường thất nghiệp sau khi học Dược<span class="new_icon_1"></span></a></li>
+                        <li><a href="http://caodangduoc.edu.vn/tin-giao-duc/tu-van-tuyen-sinh-cac-truong-thpt.html" title="Trường cao đẳng dược Hà Nội hướng nghiệp cho các thí sinh Tỉnh Hưng Yên">Trường cao đẳng dược Hà Nội hướng nghiệp cho các thí sinh Tỉnh Hưng Yên<span class="new_icon_1"></span></a></li>
+                        <li><a href="http://caodangduoc.edu.vn/danh-muc-tin-tuc/nhan-dinh-xu-huong-phat-trien-nganh-duoc-viet-nam-trong-tuong-lai.html" title="Nhận định xu hướng phát triển ngành dược Việt Nam trong tương lai">Nhận định xu hướng phát triển ngành dược Việt Nam trong tương lai<span class="new_icon_1"></span></a></li>
+                    </ul>
+                </div>
+
+                <div class="border-box-right">
+                </div>
+                <!-- Facebook -->
+                <div class="title-right">Facebook</div>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FcaodangduocNT&tabs=timeline&width=253&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden"
+                    width="100%" height="500" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                <!--google map-->
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7450.1557125286745!2d105.80080800000002!3d20.989516!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd657d6d980525fb!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIETGsOG7o2MgSMOgIE7hu5lp!5e0!3m2!1svi!2sus!4v1559579980420!5m2!1svi!2sus"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Đối tác -->
+    <div class="container cach chieucao">
+        <div class="doitac">
+            <marquee behavior="scroll" direction="left">
+                <img src="img/doitac/1.png" width="90" height="90" />
+                <img src="img/doitac/2.png" width="90" height="90" />
+                <img src="img/doitac/3.jpg" width="90" height="90" />
+                <img src="img/doitac/4.jpg" width="90" height="90" />
+                <!-- <img src="img/doitac/5.jpg" width="80" height="80" /> -->
+                <img src="img/doitac/6.jpg" width="90" height="90" />
+                <img src="img/doitac/7.jpg" width="90" height="90" />
+                <img src="img/doitac/8.jpg" width="90" height="90" />
+                <img src="img/doitac/9.jpg" width="90" height="90" />
+                <img src="img/doitac/10.png" width="90" height="90" />
+                <img src="img/doitac/11.jpg" width="90" height="90" />
+                <img src="img/doitac/12.jpg" width="90" height="90" />
+                <img src="img/doitac/13.jpg" width="90" height="90" />
+            </marquee>
+        </div>
+    </div>
+    <!-- Footer-->
+    <div id="footer">
+        <div class="footerformat">
+            <p style="text-align: center;">
+                <span style="font-family:times new roman,times,serif;"><span style="font-size:16px;"><strong>&nbsp;TRƯỜNG CAO ĐẲNG DƯỢC HÀ NỘI</strong></span></span>
+            </p>
+            <p style="text-align: center;">
+                <span style="font-size:16px;"><strong><span style="font-family:times new roman,times,serif;">SỐ 477 NGUYỄN TRÃI - THANH XUÂN - HÀ NỘI</span></strong>
+                </span>
+            </p>
+            <p style="text-align: center;" class="clear-margin">
+                <span style="font-family:times new roman,times,serif;"><span style="font-size:16px;"><strong>Hotline: 02466 82 3550 - 0965.785.999</strong></span></span>
+            </p>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
