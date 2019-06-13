@@ -362,3 +362,12 @@ ul.news-thumb-list li .sourcename {
 .clear-margin {
     margin: 0px;
 }
+}
+
+.doitac {
+    border: 1px solid #b5b5b5;
+}
+
+.doitac img {
+    margin-left: 20px;
+}
